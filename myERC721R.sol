@@ -24,8 +24,8 @@ contract MyERC721R_Escrow is ERC721Enumerable, Pausable, Ownable {
     
     Counters.Counter private _tokenIds;
     
-    uint public constant MAX_SUPPLY = 7110;
-    uint public  PRICE = 0.15 ether;
+    uint public constant MAX_SUPPLY = 10000;
+    uint public  PRICE = 0.05 ether;
     uint public constant MAX_PER_MINT = 10;
     uint256 public constant refundPeriod = 10 days;
     uint256 public refundEndTime;
